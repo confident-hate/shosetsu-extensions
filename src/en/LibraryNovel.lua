@@ -1,0 +1,48 @@
+-- {"id":4217,"ver":"2.2.0","libVer":"1.0.0","author":"TechnoJo4","dep":["Madara>=2.2.0"]}
+
+return Require("Madara")("https://librarynovel.com", {
+    id = 93224,
+    name = "Library Novel",
+    imageURL = "https://librarynovel.com/wp-content/uploads/2021/04/cropped-Favicon-Novel@232x-32x32.png",
+    -- defaults values
+    chaptersListSelector= "li.wp-manga-chapter",
+    novelListingURLPath = "all-novel",
+    shrinkURLNovel = "novel",
+
+    genres = {
+        "romance-novel",
+		"smut-novel",
+		"adult-novel",
+		"fantasy-novel",
+		"historical-novel",
+		"action-novel",
+		"yaoi-novel",
+		"adventure-novel",
+		"comedy-novel",
+		"drama-novel",
+		"shoujo-novel",
+		"shounen-novel",
+		"xuanhuan-novel",
+		"ecchi-novel",
+		"school-life-novel",
+		"gender-bender-novel",
+		"harem-novel",
+		"horror-novel",
+		"josei-novel",
+		"lolicon-novel",
+		"martial-arts-novel",
+		"mature-novel",
+		"mecha-novel",
+		"mystery-novel",
+		"psychological-novel",
+		"sci-fi-novel",
+		"seinen-novel",
+		"wuxia-novel",
+		"shounen-ai-novel",
+		"slice-of-life-novel",
+		"xianxia-novel",
+		"sports-novel",
+		"tragedy-novel",
+		"supernatural-novel",
+    }
+})

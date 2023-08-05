@@ -1,0 +1,74 @@
+{
+  "libraries": [
+    {
+      "name": "247truyen",
+      "ver": "1.1.2"
+    },
+    {
+      "name": "CommonCSS",
+      "ver": "1.0.1"
+    },
+    {
+      "name": "dkjson",
+      "ver": "1.0.1"
+    },
+    {
+      "name": "NovelFull",
+      "ver": "2.0.6"
+    },
+    {
+      "name": "url",
+      "ver": "1.0.0"
+    },
+    {
+      "name": "WWVolare",
+      "ver": "1.2.1"
+    },
+    {
+      "name": "Madara",
+      "ver": "2.9.0"
+    }
+  ],
+  "scripts": [
+    {
+      "name": "Library Novel",
+      "fileName": "LibraryNovel",
+      "imageURL": "https://librarynovel.com/wp-content/uploads/2021/04/cropped-Favicon-Novel@232x-32x32.png",
+      "id": 93224,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "FastNovels",
+      "fileName": "FastNovels",
+      "imageURL": "https://fastnovels.net/images/favicon.png",
+      "id": 95551,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Genesis Translations",
+      "fileName": "Genesistls",
+      "imageURL": "https://genesistls.com/wp-content/uploads/2022/04/logo.png",
+      "id": 95555,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "Wattpad",
+      "fileName": "Wattpad",
+      "imageURL": "https://cdn-icons-png.flaticon.com/512/2111/2111715.png",
+      "id": 95556,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    }
+  ]
+}
