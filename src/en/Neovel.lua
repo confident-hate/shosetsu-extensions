@@ -169,6 +169,7 @@ local function parseNovel(novelURL)
         status = ({
             [1] = NovelStatus.PUBLISHING,
             [3] = NovelStatus.COMPLETED,
+            [2] = NovelStatus.PAUSED,
         })[response["bookDto"].completion],
         authors = { response["bookDto"].authors[1] },
         genres = intTogenre(response["bookDto"].genreIds),

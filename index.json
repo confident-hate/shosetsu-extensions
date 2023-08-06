@@ -51,6 +51,36 @@
       "md5": ""
     },
     {
+      "name": "Quotev",
+      "fileName": "Quotev",
+      "imageURL": "https://www.quotev.com/favicon.ico",
+      "id": 95552,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "NovelAll",
+      "fileName": "NovelAll",
+      "imageURL": "https://www.novelall.com/files/images/touch-icon-ipad.png",
+      "id": 95553,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
+      "name": "WebNovelPub",
+      "fileName": "WebNovelPub",
+      "imageURL": "https://webnovelpub.co/logo.png",
+      "id": 95554,
+      "lang": "en",
+      "ver": "1.0.0",
+      "libVer": "1.0.0",
+      "md5": ""
+    },
+    {
       "name": "Genesis Translations",
       "fileName": "Genesistls",
       "imageURL": "https://genesistls.com/wp-content/uploads/2022/04/logo.png",
