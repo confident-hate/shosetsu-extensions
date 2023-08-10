@@ -80,9 +80,9 @@ local function parseNovel(novelURL)
 	return NovelInfo {
 		title = document:selectFirst(".entry-title"):text(),
 		description = document:select(".bixbox.synp .entry-content"):text(),
-		imageURL = document:select(".thumb img"):attr("src"),
+		imageURL = document:selectFirst(".thumb img"):attr("src"),
         --authors = { document:select(".spe span")[2]:text() },
-        --genres = map(document:select(".spe span")[1], text ),
+        genres = map(document:select(".info-content .genxed a"), text ),
 		chapters = AsList(
 				map(document:select(".eplister.eplisterfull ul li"), function(v)
 					return NovelChapter {
