@@ -1,4 +1,4 @@
--- {"id":95555,"ver":"1.0.0","libVer":"1.0.0","author":"Confident-hate"}
+-- {"id":95555,"ver":"1.0.1","libVer":"1.0.0","author":"Confident-hate"}
 
 local baseURL = "https://genesistls.com"
 
@@ -85,9 +85,14 @@ local function parseNovel(novelURL)
         genres = map(document:select(".info-content .genxed a"), text ),
 		chapters = AsList(
 				map(document:select(".eplister.eplisterfull ul li"), function(v)
+                    local isFree = v:selectFirst(".epl-price"):text()
+					local title = v:selectFirst(".epl-num"):text() .. " " .. v:selectFirst(".epl-title"):text()
+                    if isFree ~= "Free" then
+                    	title = "🔒 ".. title
+                    end
 					return NovelChapter {
 						order = v,
-						title = v:selectFirst(".epl-num"):text() .. " " .. v:selectFirst(".epl-title"):text(),
+						title = title,
 						link = v:selectFirst("a"):attr("href")
 					}
 				end)
