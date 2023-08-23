@@ -87,14 +87,13 @@ local function parseNovel(novelURL)
                 map(document:select(".eplister.eplisterfull ul li"), function(v)
                     local isFree = v:selectFirst(".epl-price"):text()
                     local title = v:selectFirst(".epl-num"):text() .. " " .. v:selectFirst(".epl-title"):text()
-                    if isFree ~= "Free" then
-                        title = "🔒 ".. title
-                    end
-                    return NovelChapter {
+                    if isFree == "Free" then
+                        return NovelChapter {
                         order = v,
                         title = title,
                         link = v:selectFirst("a"):attr("href")
-                    }
+                        }
+                    end
                 end)
         )
     }
